@@ -27,7 +27,7 @@ module Ex25
 	def Ex25.print_first_and_last(sentence)
 		words = Ex25.break_words(sentence)
 		Ex25.print_first_word(words)
-		Ex25.print)last_word(words)
+		Ex25.print_last_word(words)
 	end
 	
 	def Ex25.print_first_last_sorted(sentence)
